@@ -1,5 +1,5 @@
 Name:                diagrams-svg
-Version:             1.4.1
+Version:             1.4.2
 Synopsis:            SVG backend for diagrams drawing EDSL.
 Homepage:            http://projects.haskell.org/diagrams/
 License:             BSD3
@@ -36,7 +36,8 @@ Source-repository head
   location: http://github.com/diagrams/diagrams-svg
 
 Library
-  Exposed-modules:     Diagrams.Backend.SVG
+  Exposed-modules:     Diagrams.Backend.AbstractSVG
+                       Diagrams.Backend.SVG
                        Diagrams.Backend.SVG.CmdLine
   Other-modules:       Graphics.Rendering.SVG
   Hs-source-dirs:      src
