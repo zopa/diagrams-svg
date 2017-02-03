@@ -39,7 +39,7 @@ Library
   Exposed-modules:     Diagrams.Backend.AbstractSVG
                        Diagrams.Backend.SVG
                        Diagrams.Backend.SVG.CmdLine
-                       Graphics.Rendering.SVG.Abstract.Elements
+                       Graphics.SVG.Abstract.Elements
   Other-modules:       Graphics.Rendering.SVG
   Hs-source-dirs:      src
   Build-depends:       base                 >= 4.3   && < 4.10
