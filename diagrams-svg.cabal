@@ -41,6 +41,7 @@ Library
                        Diagrams.Backend.SVG.CmdLine
                        Graphics.Svg.Abstract.Elements
   Other-modules:       Graphics.Rendering.SVG
+                       Graphics.Rendering.AbstractSVG
   Hs-source-dirs:      src
   Build-depends:       base                 >= 4.3   && < 4.10
                      , filepath
